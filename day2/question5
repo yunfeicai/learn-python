@@ -7,3 +7,17 @@
 #Hints:
 #Use init method to construct some parameters
 
+class TestClass():
+   def __init__(self):
+    pass
+    
+   def getString(self):
+    self.x = str(input())
+    
+   def printString(self):
+    print(self.x.upper())
+    
+ss = TestClass()
+ss.getString()
+ss.printString()
+   
